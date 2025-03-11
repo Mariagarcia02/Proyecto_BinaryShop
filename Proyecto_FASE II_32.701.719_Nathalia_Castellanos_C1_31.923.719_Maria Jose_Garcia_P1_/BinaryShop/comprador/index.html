@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/e7d9a74b67.js" crossorigin="anonymous"></script>
+    <title>Carrito de compras</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="carrito">
+            <i class="fa-solid fa-cart-shopping">
+                <div class="buy-cart">
+                    <ul class="nav-cart">
+                        <li>Imagen</li>
+                        <li>Nombre</li>
+                        <li>Precio</li>
+                        <li>Cantidad</li>
+                        <li></li>
+                    </ul>
+                    <div class="lista_de_productos">
+                        
+                    </div>
+                    <button id="vaciar_carrito">VACIAR CARRITO</button>
+                </div>
+            </i>
+        </nav>
+        <h1>Productos</h1>
+        <div class="grid" id="lista-productos">
+            <div class="items">
+                <img src="../Imagenes_Productos/Almohada de Masaje Inteligente.png" alt="">
+                <div class="info">
+                    <h3>Almohada de Masaje Inteligente</h3>
+                    <p>Almohada que se adapta a tu cuerpo y proporciona masajes personalizados.</p>
+                    <div class="precio">
+                        <p>69.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 30</p>
+                    </div>
+                    <button class="agregar-productos" data-id="1">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Audífonos de Traducción Simultánea.png
+                " alt="">
+                <div class="info">
+                    <h3>Audífonos de Traducción Simultánea</h3>
+                    <p>Audífonos que traducen idiomas en tiempo real.</p>
+                    <div class="precio">
+                        <p>149.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 10</p>
+                    </div>
+                    <button class="agregar-productos" data-id="2">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Bicicleta Eléctrica Plegable.png" alt="">
+                <div class="info">
+                    <h3>Bicicleta Eléctrica Plegable</h3>
+                    <p>Bicicleta que se pliega para facilitar su transporte.</p>
+                    <div class="precio">
+                        <p>599.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 3</p>
+                    </div>
+                    <button class="agregar-productos" data-id="3">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Botella de Agua Auto-Limpiable.png" alt="">
+                <div class="info">
+                    <h3>Botella de Agua Auto-Limpiable</h3>
+                    <p>Botella con luz UV integrada para purificar el agua.</p>
+                    <div class="precio">
+                        <p>29.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 50</p>
+                    </div>
+                    <button class="agregar-productos" data-id="4">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/cámara de seguridad con reconocimiento facial.png" alt="">
+                <div class="info">
+                    <h3>Cámara de Seguridad con Reconocimiento Facial</h3>
+                    <p>Cámara que identifica a las personas y envía alertas.</p>
+                    <div class="precio">
+                        <p>89.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 15</p>
+                    </div>
+                    <button class="agregar-productos" data-id="5">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Eco-Cepillo Dental de bambú biodegradable con cerdas de carbón activado.png" alt="">
+                <div class="info">
+                    <h3>Eco-Cepillo Dental</h3>
+                    <p>Cepillo de bambú biodegradable con cerdas de carbón activado.</p>
+                    <div class="precio">
+                        <p>5.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 100</p>
+                    </div>
+                    <button class="agregar-productos" data-id="6">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Altavoz Inteligente con Pantalla Táctil.png" alt="">
+                <div class="info">
+                    <h3>Altavoz Inteligente con Pantalla Táctil</h3>
+                    <p>Altavoz que te permite controlar tu hogar y ver videos.</p>
+                    <div class="precio">
+                        <p>169.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 11</p>
+                    </div>
+                    <button class="agregar-productos" data-id="7">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Guantes de Realidad Virtual Táctiles.png" alt="">
+                <div class="info">
+                    <h3>Cámara de Seguridad con Reconocimiento Facial</h3>
+                    <p>Cámara que identifica a las personas y envía alertas.</p>
+                    <div class="precio">
+                        <p>89.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 15</p>
+                    </div>
+                    <button class="agregar-productos" data-id="8">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Impresora 3D de bolsillo del tamaño de un dado.png" alt="">
+                <div class="info">
+                    <h3>Impresora 3D de Bolsillo</h3>
+                    <p>Impresora que cabe en tu bolsillo y te permite imprimir objetos pequeños.</p>
+                    <div class="precio">
+                        <p>349.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 2</p>
+                    </div>
+                    <button class="agregar-productos" data-id="9">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Kit de Cultivo Hidropónico Casero.png" alt="">
+                <div class="info">
+                    <h3>Kit de Cultivo Hidropónico Casero</h3>
+                    <p>Kit para cultivar tus propias hierbas y verduras en casa.</p>
+                    <div class="precio">
+                        <p>59.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 25</p>
+                    </div>
+                    <button class="agregar-productos" data-id="10">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Kit de Primeros Auxilios Inteligente.png" alt="">
+                <div class="info">
+                    <h3>Kit de Primeros Auxilios Inteligente</h3>
+                    <p>Kit que te guía en caso de emergencia.</p>
+                    <div class="precio">
+                        <p>79.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 28</p>
+                    </div>
+                    <button class="agregar-productos" data-id="11">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Lámpara de Escritorio con Carga Inalámbrica.png" alt="">
+                <div class="info">
+                    <h3>Lámpara de Escritorio con Carga Inalámbrica</h3>
+                    <p>Lámpara que carga tu teléfono mientras ilumina tu espacio.</p>
+                    <div class="precio">
+                        <p>49.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 40</p>
+                    </div>
+                    <button class="agregar-productos" data-id="12">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Maleta Inteligente con Seguimiento GPS.png" alt="">
+                <div class="info">
+                    <h3>Maleta Inteligente con Seguimiento GPS</h3>
+                    <p>Maleta que te permite saber dónde está en todo momento.</p>
+                    <div class="precio">
+                        <p>189.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 13</p>
+                    </div>
+                    <button class="agregar-productos" data-id="13">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Mochila Solar Cargadora.png" alt="">
+                <div class="info">
+                    <h3>Mochila Solar Cargadora</h3>
+                    <p>Mochila con panel solar integrado para cargar dispositivos móviles.</p>
+                    <div class="precio">
+                        <p>79.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 25</p>
+                    </div>
+                    <button class="agregar-productos" data-id="14">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Pluma de Borrado Instantáneo.png" alt="">
+                <div class="info">
+                    <h3>Pluma de Borrado Instantáneo</h3>
+                    <p>Pluma que borra tinta con un solo clic, sin dejar rastro.</p>
+                    <div class="precio">
+                        <p>9.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 200</p>
+                    </div>
+                    <button class="agregar-productos" data-id="15">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Proyector Holográfico Portátil pequeño.png" alt="">
+                <div class="info">
+                    <h3>Proyector Holográfico Portátil</h3>
+                    <p>Proyector que crea hologramas en cualquier superficie.</p>
+                    <div class="precio">
+                        <p>299.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 12</p>
+                    </div>
+                    <button class="agregar-productos" data-id="16">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Purificador de Aire con Aromaterapia.png" alt="">
+                <div class="info">
+                    <h3>Purificador de Aire con Aromaterapia</h3>
+                    <p>Purificador que elimina las impurezas del aire y libera aromas.</p>
+                    <div class="precio">
+                        <p>119.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 18</p>
+                    </div>
+                    <button class="agregar-productos" data-id="17">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Reloj Inteligente con Monitor de Sueño.png" alt="">
+                <div class="info">
+                    <h3>Reloj Inteligente con Monitor de Sueño</h3>
+                    <p>Reloj que analiza tu sueño y te ayuda a mejorarlo.</p>
+                    <div class="precio">
+                        <p>129.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 20</p>
+                    </div>
+                    <button class="agregar-productos" data-id="18">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Silla Ergonómica con Calefacción.png" alt="">
+                <div class="info">
+                    <h3>Silla Ergonómica con Calefacción</h3>
+                    <p>Silla que se adapta a tu cuerpo y te mantiene caliente.</p>
+                    <div class="precio">
+                        <p>279.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 9</p>
+                    </div>
+                    <button class="agregar-productos"data-id="19">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Candado Inteligente con Huella Dactilar sin manos.png" alt="">
+                <div class="info">
+                    <h3>Candado Inteligente con Huella Dactilar</h3>
+                    <p>Candado que se abre con tu huella dactilar.</p>
+                    <div class="precio">
+                        <p>149.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 10</p>
+                    </div>
+                    <button class="agregar-productos" data-id="20">Agregar Al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="../Imagenes_Productos/Gafas de Realidad Aumentada con GPS.png" alt="">
+                <div class="info">
+                    <h3>Gafas de Realidad Aumentada con GPS</h3>
+                    <p>Gafas que te muestran información sobre el mundo real.</p>
+                    <div class="precio">
+                        <p>229.99$</p>
+                        <div class="cantidad"></div>
+                        <p>Unidades: 7</p>
+                    </div>
+                    <button class="agregar-productos" data-id="21">Agregar Al Carrito</button>
+                </div>
+            </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

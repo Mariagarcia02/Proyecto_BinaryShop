@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/e7d9a74b67.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Carrito de compras</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div-btns">
+        <button id="btn-usuario">Usuario</button>
+        <h1>Productos</h1>
+        <button id="btn-productos">Productos</button>
+      </div>
+      <div class="grid" id="lista-productos">
+        <div class="items">
+          <img
+            src="../Imagenes_Productos/Almohada de Masaje Inteligente.png"
+            alt=""
+          />
+          <div class="info">
+            <h3>Almohada de Masaje Inteligente</h3>
+            <p>
+              Almohada que se adapta a tu cuerpo y proporciona masajes
+              personalizados.
+            </p>
+            <div class="precio">
+              <p>69.99$</p>
+              <div class="cantidad"></div>
+              <p>Unidades: 30</p>
+            </div>
+            <button class="eliminar-productos" data-id="1">Eliminar</button>
+          </div>
+        </div>
+        <div class="items">
+          <img
+            src="../Imagenes_Productos/Audífonos de Traducción Simultánea.png
+                "
+            alt=""
+          />
+          <div class="info">
+            <h3>Audífonos de Traducción Simultánea</h3>
+            <p>Audífonos que traducen idiomas en tiempo real.</p>
+            <div class="precio">
+              <p>149.99$</p>
+              <div class="cantidad"></div>
+              <p>Unidades: 10</p>
+            </div>
+            <button class="eliminar-productos" data-id="2">Eliminar</button>
+          </div>
+        </div>
+        <div class="items">
+          <img
+            src="../Imagenes_Productos/Bicicleta Eléctrica Plegable.png"
+            alt=""
+          />
+          <div class="info">
+            <h3>Bicicleta Eléctrica Plegable</h3>
+            <p>Bicicleta que se pliega para facilitar su transporte.</p>
+            <div class="precio">
+              <p>599.99$</p>
+              <div class="cantidad"></div>
+              <p>Unidades: 3</p>
+            </div>
+            <button class="eliminar-productos" data-id="3">Eliminar</button>
+          </div>
+        </div>
+      </div>
+      <div class="grid d-none" id="lista-usuarios">
+        <div class="items">
+          <div class="info">
+            <h3>ISMAEL</h3>
+            <p>La candelaria</p>
+            <div class="precio">
+              <p>Nickname: Nickname</p>
+            </div>
+            <button class="eliminar-productos" data-id="1">Eliminar</button>
+          </div>
+        </div>
+        <div class="items">
+          <div class="info">
+            <h3>ISMAEL</h3>
+            <p>La candelaria</p>
+            <div class="precio">
+              <p>Nickname: Nickname</p>
+            </div>
+            <button class="eliminar-productos" data-id="1">Eliminar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
