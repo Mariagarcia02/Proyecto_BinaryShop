@@ -22,9 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Credenciales predeterminadas
         const users = {
-            "seller456": { password: "Intro123", redirect: "../comprador/index.html/" },
-            "dancabello": { password: "J5*asdRD.s", redirect: "../vendedor/index.html/" },
-            "root": { password: "dochouse", redirect: "../admin/index.html/" }
             "seller456": { password: "Intro123", redirect: "../comprador/index.html" },
             "dancabello": { password: "J5*asdRD.s", redirect: "../vendedor/index.html" },
             "root": { password: "dochouse", redirect: "../admin/index.html" }
